@@ -20,7 +20,7 @@ class Scheduler extends Component {
         </Container>
     }
 }
-const Table=()=>{
+function Table(){
     return <div className={"table-responsive"}>
         <table className={"table table-bordered text-center"}>
             <TheadTable/>
@@ -28,7 +28,7 @@ const Table=()=>{
         </table>
     </div>
 }
-const TheadTable=()=>{
+function TheadTable(){
     return <Fragment>
         <thead>
 
@@ -50,7 +50,7 @@ const TheadTable=()=>{
         </thead>
     </Fragment>
 }
-const TbodyTable=()=>{
+function TbodyTable(){
     return <Fragment>
         <tbody>
         <tr>
